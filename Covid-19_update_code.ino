@@ -36,7 +36,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   
   measure_distance();
-  if (distance < 1 0)
+  if (distance < 10)
   {
     digitalWrite(led, HIGH);
     digitalWrite(pump, HIGH);
